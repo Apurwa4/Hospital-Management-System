@@ -1,0 +1,48 @@
+
+/* Navigation bar */
+/* --------------------------------------- */
+/* backkground color and padding */
+.nav-box {
+    background-color: cadetblue;
+    padding: 10px 30px;
+}
+
+/* link styles */
+.nav-box .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* underline the box when hovered */
+.nav-box .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* when link is active */
+.nav-box .nav-link.active {
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+}
+/* --------------------------------------- */
+
+/*footer*/
+/* --------------------------------------- */
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer-box {
+  background-color: cadetblue;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+/* --------------------------------------- */
